@@ -1,0 +1,453 @@
+/* styling AboutUs page*/
+section.platform {
+  padding-block-start: 3rem;
+  padding-block-end: 3.0rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+section.platform > p:nth-of-type(1) {
+  margin-block-end: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: -0.00875rem;
+}
+section.platform > p:nth-of-type(2) {
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.00438rem;
+}
+section.care-for-you {
+    padding-block-end: 3rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+section.care-for-you > p:nth-of-type(1) {
+    margin-block-end: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: -0.00875rem;
+}
+section.care-for-you > p:nth-of-type(2),
+section.care-for-you > p:nth-of-type(3),
+section.care-for-you > p:nth-of-type(4) {
+  color: #000;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.00438rem;
+  padding-bottom: 1rem;
+}
+section.care-for-you > p:nth-of-type(4) {
+  margin-block-end: 0;
+}
+section.mission-vision{
+  padding-inline: 1.25rem;
+  padding-block-end: 3.0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem
+}
+section.mission-vision > div{
+  position: relative;
+  padding: 0.5rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.5rem;
+}
+div.semi-circle{
+  width: 2.0rem;
+  height:2.0rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #fff;
+}
+section.mission-vision > div:nth-of-type(1) > div.semi-circle{
+  left:0;
+  top:50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+section.mission-vision > div:nth-of-type(2) > div.semi-circle{
+  top:0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+section.mission-vision > div > p:nth-of-type(1){
+  font-size: 1.5rem;
+  margin-block-end: 0.5rem;
+}
+section.mission-vision > div > p:nth-of-type(2){
+  font-size: 1.0rem;
+}
+section.mission-vision > div:nth-of-type(1){
+  background-color: rgb(1, 91, 126);
+  color: rgb(58, 195, 214);
+}
+section.mission-vision > div:nth-of-type(2){
+  background-color: rgb(58, 195, 214);
+  color: rgb(1, 91, 126);
+}
+section.avengers {
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
+  background: #d8f3fe;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+section.avengers > p {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2.8125rem;
+  text-transform: uppercase;
+  margin-block-end: 2.0rem;
+}
+div.sliderShow {
+  /* display: grid; */
+  display: flex;
+  gap: 2.5rem;
+}
+div.teamMember{
+  width: 12.5rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+ul.slick-dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .625rem;
+  margin-block-start: 4.125rem;
+}
+.slider{
+  width: 1.75rem;
+  height: .5rem;
+  border-radius: 1.5rem;
+  background: #55DBE4;
+}
+li.slick-active > .slider{
+  background:#015B7E;
+}
+.slick-arrow{
+  display: none !important;
+}
+div.teamMember > img {
+  display: block;
+  width: 100%;
+  margin-block-end: 1.25rem;
+  filter: grayscale(0%);
+  transition: all ease 0.5s;
+}
+div.teamMember > img:hover{
+  filter: grayscale(50%);
+}
+div.teamMember > p:nth-of-type(1) {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-block-end: 1rem;
+}
+div.teamMember > p:nth-of-type(2) {
+  margin-block-end: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+div.teamMember > p:nth-of-type(3) {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.02013rem;
+  line-height: 1.72238rem;
+  font-family: Quicksand;
+}
+
+/* For 768px devices and above */
+@media only screen and (min-width: 768px) {
+  /* styling AboutUs page*/
+  section.platform {
+    padding-block: 4.5rem;
+    padding-inline: 4.25rem;
+  }
+  section.platform > p:nth-of-type(1) {
+    margin-block-end: 1.75rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  section.platform > p:nth-of-type(2) {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  section.care-for-you {
+    padding-inline: 4.25rem;
+    padding-block-end: 4.5rem;
+  }
+  section.care-for-you > p:nth-of-type(1) {
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+    margin-block-end: 1.75rem;
+  }
+  section.care-for-you > p:nth-of-type(2),
+  section.care-for-you > p:nth-of-type(3),
+  section.care-for-you > p:nth-of-type(4) {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-block-end: 1rem;
+  }
+  section.care-for-you > p:nth-of-type(4) {
+    margin-block-end: 0;
+  }
+  section.mission-vision{
+    padding-inline: 4.25rem;
+    padding-block-end: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section.mission-vision > div{
+    position: relative;
+    width: 47%;
+    padding: 0.5rem;
+    padding-inline: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  div.semi-circle{
+    width: 2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+  }
+  section.mission-vision > div:nth-of-type(1) > div.semi-circle{
+    left:0;
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  section.mission-vision > div:nth-of-type(2) > div.semi-circle{
+    top:0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  section.mission-vision > div > p:nth-of-type(1){
+    font-size: 1.5rem;
+    margin-block-end: 0.5rem;
+  }
+  section.mission-vision > div > p:nth-of-type(2){
+    font-size: 1.0rem;
+  }
+  section.mission-vision > div:nth-of-type(1){
+    background-color: rgb(1, 91, 126);
+    color: rgb(58, 195, 214);
+  }
+  section.mission-vision > div:nth-of-type(2){
+    background-color: rgb(58, 195, 214);
+    color: rgb(1, 91, 126);
+  }
+  section.avengers {
+    padding-block-start: 4.5rem;
+    padding-block-end: 4.5rem;
+    padding-inline: 4.25rem;
+    background: #d8f3fe;
+  }
+  section.avengers > p {
+    font-size: var(--font-xlarge);
+    font-weight: 600;
+    line-height: 2.8125rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-end: 5.75rem;
+  }
+  div.sliderShow {
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+  }
+  div.teamMember{
+    width: 15.625rem;
+    flex-shrink: 0;
+  }
+  div.teamMember > img {
+    display: block;
+    width: 100%;
+    margin-block-end: 1.25rem;
+  }
+  div.teamMember > p:nth-of-type(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-block-end: 1rem;
+  }
+  div.teamMember > p:nth-of-type(2) {
+    margin-block-end: 1rem;
+    font-size: 1.0rem;
+    font-weight: 400;
+  }
+  div.teamMember > p:nth-of-type(3) {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  ul.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+  }
+  .slider{
+    width: 1.75rem;
+    height: .5rem;
+    border-radius: 1.5rem;
+    background: #55DBE4;
+  }
+  li.slick-active .slider{
+    background:#015B7E;
+  }
+}
+
+/* For 1024px devices and above */
+@media only screen and (min-width: 1280px) {
+  /* styling AboutUs page*/
+  section.platform {
+    padding-block: 5.5rem;
+    padding-inline: 6.25rem;
+  }
+  section.platform > p:nth-of-type(1) {
+    margin-block-end: 1.75rem;
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+  }
+  section.platform > p:nth-of-type(2) {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  section.care-for-you {
+    padding-inline: 6.25rem;
+    padding-block-end: 5.5rem;
+  }
+  section.care-for-you > p:nth-of-type(1) {
+    font-size: var(--font-xlarge);
+    font-weight: 500;
+    margin-block-end: 1.75rem;
+  }
+  section.care-for-you > p:nth-of-type(2),
+  section.care-for-you > p:nth-of-type(3),
+  section.care-for-you > p:nth-of-type(4) {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-block-end: 1rem;
+  }
+  section.care-for-you > p:nth-of-type(4) {
+    margin-block-end: 0;
+  }
+  section.avengers {
+    padding-block-start: 5.5rem;
+    padding-block-end: 5.5rem;
+    padding-inline: 6.25rem;
+    background: #d8f3fe;
+  }
+  section.avengers > p {
+    font-size: var(--font-xlarge);
+    font-weight: 600;
+    line-height: 2.8125rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-block-end: 5.75rem;
+  }
+  section.mission-vision{
+    padding-inline: 6.25rem;
+    padding-block-end: 5.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section.mission-vision > div{
+    position: relative;
+    width: 45%;
+    padding: 1rem;
+    padding-inline: 2.0rem;
+    border-radius: 0.5rem;
+  }
+  div.semi-circle{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+  }
+  section.mission-vision > div:nth-of-type(1) > div.semi-circle{
+    left:0;
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  section.mission-vision > div:nth-of-type(2) > div.semi-circle{
+    top:0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  section.mission-vision > div > p:nth-of-type(1){
+    font-size: 2rem;
+    margin-block-end: 1rem;
+  }
+  section.mission-vision > div > p:nth-of-type(2){
+    font-size: 1.5rem;
+  }
+  section.mission-vision > div:nth-of-type(1){
+    background-color: rgb(1, 91, 126);
+    color: rgb(58, 195, 214);
+  }
+  section.mission-vision > div:nth-of-type(2){
+    background-color: rgb(58, 195, 214);
+    color: rgb(1, 91, 126);
+  }
+  div.sliderShow {
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    column-gap: 5rem;
+    row-gap: 5rem;
+  }
+  div.teamMember{
+    width: 21.875rem;
+    flex-shrink: 0;
+  }
+  ul.slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+  }
+  .slider{
+    width: 1.75rem;
+    height: .5rem;
+    border-radius: 1.5rem;
+    background: #55DBE4;
+  }
+  li.slick-active > .slider{
+    background:#015B7E;
+  }
+  section.avengers > div > div > img {
+    display: block;
+    width: 100%;
+    margin-block-end: 1.25rem;
+  }
+  div.teamMember > p:nth-of-type(1) {
+    font-size: var(--font-large);
+    font-weight: 700;
+    margin-block-end: 1rem;
+  }
+  div.teamMember > p:nth-of-type(2) {
+    margin-block-end: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  div.teamMember > p:nth-of-type(3) {
+    font-size: var(--font-small);
+    font-weight: 400;
+}
+/* witlist pg page styling */
+}

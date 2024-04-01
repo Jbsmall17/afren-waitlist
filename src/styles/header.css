@@ -1,0 +1,197 @@
+.header {
+  width: 100%;
+  padding: 0.6875rem 1.25rem;
+  position: fixed;
+  z-index: 10;
+  /* box-shadow: 0px 16px 80px -20px rgba(1, 91, 126, 0.22); */
+  border-bottom: 0.5px solid #00000031;
+}
+header img{
+  cursor: pointer;
+}
+.header > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropbtn {
+  display: inline-block;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+  /* background-color: #3ac3d6; */
+  background-color: #015b7e;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown {
+  position: relative;
+  overflow: hidden;
+}
+
+.dropdown:hover {
+  overflow: visible;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  position: static;
+  width: max-content;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #d8f3fe;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media screen and (max-width: 1023px) {
+  .header > div > nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    background-color: #ffffff;
+    transform: translateX(-100%);
+    transition: transform ease 0.5s;
+  }
+  .header > div > nav.active {
+    transform: translateX(0);
+    width: 100%;
+  }
+
+  .header > div > nav > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0;
+  }
+  .header > div > nav > ul > li {
+    border-bottom: 1px solid #abe1f8;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  .header > div > nav > ul > li > a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .header > div > nav > button {
+    /* border-radius: 6px; */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.5s;
+  }
+  .header > div > nav > button:hover{
+    color: var(--primry-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primry-color);
+  }
+  div.icons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    width: 100%;
+    padding-inline-start: 6.25rem;
+    padding-inline-end: 4.625rem;
+    padding-block: 1rem;
+    /* box-shadow: 0px 16px 80px -20px rgba(1, 91, 126, 0.22); */
+  }
+  .header > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header > div > nav {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+  }
+  .header > div > nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+  }
+  .header > div > nav > ul > li {
+    border: none;
+    padding: 0;
+  }
+  .header > div > nav > ul > li > a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .header > div > nav > button {
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-inline: 16px;
+    border: none;
+    transition: all ease 0.5s;
+  }
+  .header > div > nav > button:hover{
+    color: var(--primry-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primry-color);
+  }
+  div.icons {
+    display: none;
+  }
+  .dropdown-content {
+    display: none;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: absolute;
+    width: max-content;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+  }
+}

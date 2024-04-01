@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.modal-form{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: 25;
+    background-color: #00000050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.modal-form > form{
+    max-width: 400px;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+div.modal-form > form > p{
+    font-size: 1.5rem;
+    margin-block-end:0.5rem;
+}
+@media screen and (max-width: 425px) {
+    div.modal-form > form > p{
+        font-size: 1.0rem;
+        margin-block-end:0.5rem;
+    }   
+}
+div.modal-form > form > label, div.modal-form > form > input,div.modal-form > form > textarea{
+    display: block;
+}
+div.modal-form > form > label:focus, div.modal-form > form > input:focus,
+div.modal-form > form > textarea:focus{
+    outline: none;
+}
+div.modal-form > form > label{
+    color: #3AC3D6;
+    font-size: 1.0rem;
+    margin-block-end: 0.5rem;
+}
+div.modal-form > form > input, div.modal-form > form > textarea {
+    font-size: 1.0rem;
+    padding: 0.5rem 1rem;
+    margin-block-end: 0.5rem;
+    width: 100%;
+    border: .0625rem solid black;
+    border-radius: .5rem;
+}
+div.modal-form > form > textarea {
+    min-height: 6.25rem;
+}
+div.modal-form > form > button{
+    max-width: 9.375rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color: rgb(1, 91, 126);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+div.modal-form > form > button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+div.modal-form > form > button.btn-form:hover{
+    color: rgb(1, 91, 126);
+    background-color: transparent;
+    border: .125rem solid rgb(1, 91, 126);
+}
+.form-icon{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+}

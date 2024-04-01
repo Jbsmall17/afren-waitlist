@@ -1,0 +1,276 @@
+.contact-section {
+  background-color: #def0f5;
+}
+
+.contact-section > h3 {
+  font-size: 1.5rem;
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.01rem;
+  padding-top: 6.0rem;
+  /* padding-left: 2.75rem; */
+  /* padding-right: 2.75rem; */
+  padding-bottom: 0.75rem;
+  text-align: center;
+}
+
+.contact-section > h3 > span {
+  color: #3ac3d6;
+}
+
+.contact-section > p {
+  color: #015b7e;
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* padding-left: 1.65rem; */
+  /* padding-right: 1.65rem; */
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.contact-form {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.contact-form > div {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+.contact-form > div > div {
+  padding-bottom: 2.31rem;
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+}
+
+.contact-form > div > div > input {
+  width: 100%;
+  border: 1px solid #cbd2e0;
+}
+
+.contact-form > div > div > textarea {
+  width: 100%;
+  padding: 0.6875rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #cbd2e0;
+  background: transparent;
+}
+
+.name {
+  padding-top: 2.25rem;
+}
+
+.contact-button {
+  display: flex;
+  width: 20.375rem;
+  height: 2.6875rem;
+  padding: 0rem 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  margin: auto;
+  border: 1px solid #cbd2e0;
+  color: white;
+}
+
+.loading-icon{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}
+
+/* For 768px devices and above */
+@media only screen and (min-width: 768px) {
+  .contact-section {
+    background-color: #def0f5;
+  }
+
+  .contact-section > h3 {
+    font-size: 2rem;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+    padding-top: 8.75rem;
+    /* padding-left: 9.75rem; */
+    /* padding-right: 9.75rem; */
+    padding-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .contact-section > h3 > span {
+    color: #3ac3d6;
+  }
+
+  .contact-section > p {
+    color: #015b7e;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5.65rem;
+    padding-right: 5.65rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding-left: 5.25rem;
+    padding-right: 5.25rem;
+  }
+
+  .contact-form > div {
+    background-color: white;
+    padding-bottom: 4rem;
+  }
+
+  .contact-form > div > div {
+    padding-bottom: 2.31rem;
+    padding-left: 2.85rem;
+    padding-right: 2.85rem;
+  }
+
+  .contact-form > div > div > input {
+    width: 100%;
+    border: 1px solid #cbd2e0;
+  }
+
+  .contact-form > div > div > textarea {
+    width: 100%;
+    padding: 0.6875rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #cbd2e0;
+    background: transparent;
+  }
+
+  .name {
+    padding-top: 2.25rem;
+  }
+
+  .contact-button {
+    display: flex;
+    width: 20.375rem;
+    height: 2.6875rem;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    margin: auto;
+    border: 1px solid #cbd2e0;
+    color: white;
+  }
+}
+
+/* For 1024px devices and above */
+@media only screen and (min-width: 1280px) {
+  .contact-section {
+    background-color: #def0f5;
+  }
+
+  .contact-section > h3 {
+    font-size: 4.0rem;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+    padding-top: 8.75rem;
+    /* padding-left: 18.55rem; */
+    /* padding-right: 18.5rem; */
+    padding-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .contact-section > h3 > span {
+    color: #3ac3d6;
+  }
+
+  .contact-section > p {
+    color: #015b7e;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 21.75rem;
+    padding-right: 21.75rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .contact-form {
+    padding-left: 20.5rem;
+    padding-right: 20.5rem;
+  }
+
+  .contact-form > div {
+    background-color: white;
+    padding-bottom: 4rem;
+  }
+
+  .contact-form > div > div {
+    padding-bottom: 2.31rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+
+  .contact-form > div > div > input {
+    margin-top: 1rem;
+    width: 100%;
+    height: 4.60413rem;
+    border: 1px solid #cbd2e0;
+    font-size: 1.25rem;
+  }
+
+  .contact-form > div > div > label {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1rem;
+    font-family: Quicksand;
+  }
+
+  .contact-form > div > div > textarea {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.6875rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #cbd2e0;
+    background: transparent;
+    font-size: 1.25rem;
+  }
+
+  .name {
+    padding-top: 3.25rem;
+  }
+
+  .contact-button {
+    display: flex;
+    width: 50%;
+    padding: 2rem 3rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    margin: auto;
+    border: 1px solid #cbd2e0;
+    color: white;
+    font-size: 1.25rem;
+  }
+}

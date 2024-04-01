@@ -1,0 +1,100 @@
+
+section.sixth-section{
+    /* background-image: url('../src/assets/images/wiatlist_landing.png'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    padding-block-start: 2.8125rem;
+    padding-block-end: 5.5rem;
+    background: var(--primry-color);
+}
+section.sixth-section > p:nth-of-type(1){
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-block-end: 2rem;
+}
+section.sixth-section > p:nth-of-type(2){
+    color: #F5F5F5;
+    text-align: center; 
+    font-size: 1.75rem;
+    font-weight: 400;   
+    max-width: 75ch;
+    margin: 0 auto;
+    margin-block-end: 3.5rem;
+}
+section.sixth-section > button{
+    cursor: pointer;
+    max-width: 610px;
+    width: 90%;
+    padding: 1.75rem 1.5rem;
+    border-radius: 8px;
+    background: #FFF;
+    display: block;
+    margin: 0 auto;
+    border:none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+section.sixth-section > button:hover{
+    background-color: var(--primry-color);
+    color: #FFF;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 1024px){
+    section.sixth-section{
+        /* background-image: url('../src/assets/images/wiatlist_landing.png');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background: var(--primry-color);
+        padding-block-start: 2.5rem;
+        padding-block-end: 5rem;
+    } 
+    section.sixth-section > p:nth-of-type(1){
+        font-size: 2.5rem;
+        margin-block-end: 1.5rem;
+    }
+    section.sixth-section > p:nth-of-type(2){ 
+        font-size: 1.5rem;
+        font-weight: 400;   
+        max-width: 65ch;
+        margin: 0 auto;
+        margin-block-end: 3.5rem
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.sixth-section{
+        background: var(--primry-color);
+        padding-block-start: 3.0625rem;
+        padding-block-end: 2.5rem;
+    }
+    section.sixth-section > p:nth-of-type(1){
+        color: #FFF;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-block-end: 1.25rem;
+    } 
+    section.sixth-section > p:nth-of-type(2){
+        color: #F5F5F5;
+        text-align: center; 
+        font-size: 1rem;
+        font-weight: 400;   
+        max-width: 90%;
+        margin: 0 auto;
+        margin-block-end: 3.5rem;
+    }
+    section.sixth-section > button{
+        cursor: pointer;
+        padding: 1.75rem 1.5rem;
+        border-radius: 8px;
+        background: #FFF;
+        display: block;
+        margin: 0 auto;
+        border:none;
+        font-size: 1rem;
+    }
+}

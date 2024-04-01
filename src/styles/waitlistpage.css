@@ -1,0 +1,89 @@
+main.waitlist-page{
+    padding-block-start: 10.0625rem;
+    padding-block-end: 12.125rem;
+}
+main.waitlist-page > p:nth-of-type(1){
+    text-align: center;
+    max-width: 35ch;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-block-end: 1.1875rem;
+}
+main.waitlist-page > p:nth-of-type(2){
+    color: #000;
+    text-align: center;
+    font-size: var(--font-large);
+    font-weight: 400;
+    margin-block-end: 5.3125rem;
+}
+div.waitlist-contianer{
+    display: flex;
+    justify-content: center;
+    gap: 4.6875rem;
+    min-height: 17.9375rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div.waitlist-contianer > button{
+    flex: 1;
+    box-shadow: 0px 2px 12px 8px rgba(210, 210, 210, 0.16);
+    border-radius: .8125rem;
+    background: transparent;
+    text-align: center;
+    color: #015B7E;
+    font-size: var(--font-xlarge);
+    font-weight: 400;
+    border: none;
+    border: .25rem solid #015B7E;
+    transition: all ease 0.5s;
+}
+div.waitlist-contianer > button:hover{
+    background-color: #015B7E;
+    color: #fff;
+    border:none
+}
+
+@media screen and (max-width:768px) {
+    main.waitlist-page{
+        padding-block-start: 7.9375rem;
+        padding-block-end: 8.5rem;
+        padding-inline: 1.25rem;
+    }
+    main.waitlist-page > p:nth-of-type(1){
+        text-align: center;
+        margin: 0 auto;
+        font-size: 1.625rem;
+        font-weight: 600;
+        margin-block-end: 1.3125rem;
+    }   
+    main.waitlist-page > p:nth-of-type(2){
+        color: #000;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-block-end: 7.0625rem;
+    }
+    div.waitlist-contianer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 3.625rem;
+    }
+    div.waitlist-contianer > button{
+        border-radius: .8125rem;
+        background: transparent;
+        text-align: center;
+        color: #015B7E;
+        font-size:2rem;
+        font-weight: 400;
+        border: none;
+        border: .25rem solid #015B7E;
+        transition: all ease 0.5s;
+    }
+    div.waitlist-contianer > button:hover{
+        background-color: #015B7E;
+        color: #fff;
+        border:none;
+    } 
+}

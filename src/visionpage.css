@@ -1,0 +1,348 @@
+.vision-section {
+  padding-top: 3.0rem;
+  display: grid;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.vision-section > div > p {
+  font-family: Quicksand;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-top: 1.31rem;
+}
+
+.vision-section > div > h3 {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.12rem;
+}
+
+.vision-section > div > img {
+  max-width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-section {
+  padding-top: 3.0rem;
+  display: grid;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 3.0rem;
+}
+
+.mission-section > div > p {
+  font-family: Quicksand;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-top: 1.31rem;
+  letter-spacing: -0.00438rem;
+}
+
+.mission-section > div > h3 {
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.00875rem;
+}
+
+.message-section {
+  background-color: #abe1f8;
+  padding-top: 3.0rem;
+  padding-bottom: 3rem;
+}
+
+.message-section h2 {
+  padding-bottom: 3.0rem;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.9rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.users-message-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.users-message {
+  display: inline-block;
+  padding: 1.625rem 1.75rem 2.375rem 2.5rem;
+  background-color: #015b7e;
+  max-width: 33.3125rem;
+  border-radius: 1.25rem;
+  font-size: 1.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 2.2rem;
+}
+
+.users-message h4 {
+  color: white;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 1.25rem;
+}
+
+.users-message p {
+  color: #d8f3fe;
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .vision-section {
+    padding-top: 5.8rem;
+    display: grid;
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+  }
+
+  .vision-section > div > p {
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.31rem;
+    line-height: 1.75rem;
+  }
+
+  .vision-section > div > h3 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.12rem;
+  }
+
+  .vision-section > div > img {
+    max-width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mission-section {
+    padding-top: 5.8rem;
+    display: grid;
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+    padding-bottom: 6.69rem;
+  }
+
+  .mission-section > div > p {
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-top: 1.31rem;
+    line-height: 1.75rem;
+  }
+
+  .mission-section > div > h3 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.00875rem;
+  }
+
+  .message-section {
+    background-color: #abe1f8;
+    padding-top: 3.69rem;
+    padding-bottom: 5rem;
+  }
+
+  .message-section h2 {
+    padding-bottom: 5.69rem;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1.35rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.9rem;
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+  }
+
+  .users-message {
+    display: inline-block;
+    padding: 1.625rem 1.75rem 2.375rem 2.5rem;
+    background-color: #015b7e;
+    max-width: 33.3125rem;
+    border-radius: 1.25rem;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .users-message h4 {
+    color: white;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1.25rem;
+  }
+
+  .users-message p {
+    color: #d8f3fe;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .vision-section {
+    padding-top: 5.8rem;
+    display: grid;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+  }
+  
+  .vision-section > div > p {
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.3025rem;
+    padding-top: 1.31rem;
+  }
+  
+  .vision-section > div > h3 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.12rem;
+  }
+  
+  .last-vision {
+    max-width: 41rem;
+    padding-bottom: 14rem;
+  }
+
+  .vision-section > div:last-of-type{
+    position: relative;
+  }
+  
+  .vision-section > div > img {
+    position: absolute;
+    bottom: -3rem;
+    right: -3rem;
+    max-width: 46rem;
+  }
+  
+  .mission-section {
+    padding-top: 5.8rem;
+    display: grid;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-bottom: 6.69rem;
+  }
+  
+  .mission-section > div > p {
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.28rem ;
+    padding-top: 1.31rem;
+  }
+  
+  .mission-section > div > h3 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 1.75rem;
+  }
+  
+  .message-section {
+    background-color: #abe1f8;
+    padding-top: 3.69rem;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-bottom: 5rem;
+  }
+  
+  .message-section h2 {
+    padding-bottom: 6.69rem;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+  
+  .users-message-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .users-message {
+    display: inline-block;
+    padding: 1.625rem 1.75rem 2.375rem 2.5rem;
+    background-color: #015b7e;
+    max-width: 33.3125rem;
+    border-radius: 1.25rem;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2.2rem;
+  }
+  
+  .users-message h4 {
+    color: white;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 1.25rem;
+  }
+  
+  .users-message p {
+    color: #d8f3fe;
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

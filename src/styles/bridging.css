@@ -1,0 +1,80 @@
+section.about-img-container{
+    position: relative;
+    background: #015B7E;
+    min-height: 21.6875rem;
+    padding-block-start: 3.25rem;
+    padding-inline-start:1.25rem;
+    background-image: url('../assets/images/globe2.png'); 
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section.about-img-container > p:nth-of-type(1){
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFF;
+    max-width: 21ch;
+    margin-block-end: .75rem;
+}
+section.about-img-container > p:nth-of-type(2){
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+@media screen and (min-width:1024px){
+    section.about-img-container{
+        position: relative;
+        background: #015B7E;
+        min-height: 28.125rem;
+        padding-block-start: 5rem;
+        padding-inline-start:3rem;
+        background-image: url('../assets/images/globe.png'); 
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+    section.about-img-container > p:nth-of-type(1){
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: #FFF;
+        width: 21ch;
+        margin-block-end: 3.3125rem;
+    }
+    section.about-img-container > p:nth-of-type(2){
+        color: #FFF;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    section.about-img-container{
+        position: relative;
+        background: #015B7E;
+        min-height: 38rem;
+        padding-block-start: 1rem;
+        padding-inline-start: 3rem;
+        background-image: url('../assets/images/globe.png');
+        background-repeat: no-repeat;
+        background-position: right bottom; 
+    }
+    section.about-img-container > p:nth-of-type(1){
+        font-size: 3rem;
+        font-weight: 600;
+        color: #FFF;
+        width: 21ch;
+        margin-block-end: 3.3125rem;
+    }
+    section.about-img-container > p:nth-of-type(2){
+        color: #FFF;
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+    section.about-img-container > img{
+        position: absolute;
+        bottom: 0;
+        right:0;
+    }    
+}
+
