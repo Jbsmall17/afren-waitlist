@@ -1,15 +1,2 @@
-### Afren Waitlist Client
-
-- Ensure that you have [node.js](https://nodejs.org/en/) installed on your computer.
-
-- Install the dependencies
-
-```bash
-npm install
-```
-
-- Start the development server
-
-```bash
-npm run dev
-```
+## Jibola's voluntary project
+This repository houses the code for the website I voluntarily developed for a startup, which is hosted on waitlist.afreninc.com. Constructed using React and various libraries within its ecosystem, this website serves as a representation of my dedication to contributing to the startup's mission and goals.
